@@ -1,0 +1,20 @@
+.card {
+
+    border-radius: 15px;
+    -webkit-box-shadow: 5px 5px 10px -8px #000000; 
+    box-shadow: 5px 5px 10px -8px #000000;
+    background-color: #005b8f;
+    color: #fff;
+}
+
+.card-title {
+    font-weight: bold;
+    font-size: 0.8rem;
+}
+
+.card:hover {
+    transform: scale(1.03);
+    background-color: #005b8f;
+    -webkit-box-shadow: 5px 7px 10px -8px #000000; 
+    box-shadow: 5px 7px 10px -8px #000000;
+}
