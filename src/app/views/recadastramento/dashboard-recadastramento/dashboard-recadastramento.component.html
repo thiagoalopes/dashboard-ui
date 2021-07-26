@@ -1,19 +1,22 @@
 <div class="row mt-5">
+  <div class="col-12 mb-5">
+    <h5>Situação do Recadastramento</h5>
+  </div>
     <div class="col-sm-6 col-md-3 mb-3">
         <app-totals-cards
-            title="Servidores Sexo Masculino"
+            title="Total de Servidores"
             value="{{ 5000 | number: '1.0-0'}}">
         </app-totals-cards>
     </div>
     <div class="col-sm-6 col-md-3 mb-3">
         <app-totals-cards
-            title="Servidores Sexo Feminino"
+            title="Finalizados"
             value="{{ 5000 | number: '1.0-0'}}">
         </app-totals-cards>
     </div>
     <div class="col-sm-6 col-md-3 mb-3">
         <app-totals-cards
-            title="Servidores Ativos"
+            title="Pendentes"
             value="{{ 5000 | number: '1.0-0'}}">
         </app-totals-cards>
     </div>
@@ -47,4 +50,12 @@
             value="{{ 5000 | number: '1.0-0'}}">
         </app-totals-cards>
     </div>
+</div>
+<div class="row mt-5">
+  <div class="col-md-12">
+    <app-bar-chart></app-bar-chart>
+  </div>
+  <div class="col-md-6">
+    <app-doughnut-chart></app-doughnut-chart>
+  </div>
 </div>
